@@ -1,0 +1,24 @@
+-- Ejercicios
+
+/*
+ Basándose en la tabla articulos, obtener:
+1- articulos con precio mayor a 10000
+2- articulos con precio entre 5000 y 12000 (usar > y <)
+3- articulos con precio entre 5000 y 12000 (usar BETWEEN)
+4- articulos con precio = 14000 y stock mayor a 3
+5- articulos con precio (8000, 500, 45000) no usar IN
+6- articulos con precio (8000, 500, 45000) usar IN
+7- articulos cuyo precio no sea (12000, 14000, 16000)
+8- articulos ordenados por precio de mayor a menor, si hubiera precios iguales,
+ordenarlos por nombre
+9- todos los articulos, incluyendo una columna denominada "precio con IVA", la cual
+deberá tener el monto con el IVA del producto
+10- todos los articulos, incluyendo una columna denominada "cantidad de cuotas" y 
+otra "valor de cuota", la cantidad es fija y es 3, el valor de la cuota corresponde
+a 1/3 del monto con un 5% de interés
+11- todos los artículos cuyo nombre termine con a y tenga 21 letras
+12- todos los artículos cuyo nombre contenga al menos dos 's'
+13- todos los artículos cuyo nombre esté compuesto con al menos cuatro palabras
+14- los primeros 5 artículos ordenados por precio en forma descendente
+15- los 2 primeros artículos luego del segundo registro ordenado por stock
+*/
