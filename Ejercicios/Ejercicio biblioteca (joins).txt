@@ -1,0 +1,33 @@
+-- Crear la base de datos biblioteca de acuerdo al siguiente esquema:
+
+-- -------------    -------------------     -------------     
+-- - libros    -    - prestamos       -     - socios    -    
+-- -------------    -------------------     -------------     
+-- - codigo PK -    - documento   PK FK -     - documento  PK -
+-- - titulo    -    - codigo_libro PK FK -     - nombre    -
+-- - autor     -    - fecha_prestamo   -       - domicilio -
+-- -------------    - fecha_devolucion -     -------------
+--                  -------------------                
+
+-- insertar 15 registros en cada tabla
+
+-- luego responder:
+
+
+-- 1- qué libros (codigo, titulo, autor) se le prestaron a cada socio?
+
+-- 2- Listar los socios (documento, nombre, domicilio) a los que se les prestaron libros de Java
+
+-- 3- Listar de libros (codigo,titulo,autor) que no fueron devueltos 
+
+-- 4- Lista de socios (documento, nombre, domicilio) que tienen libros sin devolver
+
+-- 5- Lista de socios (documento, nombre, domicilio) que tienen libros sin devolver y cuáles son esos libros
+
+-- 6- cantidad de libros sin devolver
+
+-- 7. Lista de libros que fueron prestados el día de hoy.
+
+-- 8- Cantidad de libros que se prestaron este mes
+
+-- 9- Cantidad de socios que tomaron libros prestados este mes
